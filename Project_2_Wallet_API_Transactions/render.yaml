@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: globalpay-wallet-api
+    env: python
+    buildCommand: "pip install -r requirements.txt && python scripts/seed_db.py"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: globalpay-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 60
+
+databases:
+  - name: globalpay-db
+    databaseName: globalpay_wallet
+    user: globalpay_user

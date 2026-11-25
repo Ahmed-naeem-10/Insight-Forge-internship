@@ -1,0 +1,335 @@
+{
+  "info": {
+    "name": "GlobalPay Wallet Backend API",
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "description": "Production API Collection for GlobalPay Wallet Backend (Tasks 1 & 2: Auth, Wallets, Atomic Transactions, Idempotency, Audit Logs).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://127.0.0.1:8000",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "my_wallet_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "receiver_wallet_id",
+      "value": "2",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "1. General & Monitoring",
+      "item": [
+        {
+          "name": "Root Information",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/",
+              "host": ["{{baseUrl}}"],
+              "path": [""]
+            }
+          }
+        },
+        {
+          "name": "Health Status Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["health"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Authentication",
+      "item": [
+        {
+          "name": "User Signup (Registers User & Creates Primary Wallet)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"full_name\": \"Zain Ahmed\",\n  \"email\": \"zain.ahmed@example.com\",\n  \"password\": \"SecurePass123!\",\n  \"country\": \"Pakistan\",\n  \"phone_number\": \"+923001234567\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/signup",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "signup"]
+            }
+          }
+        },
+        {
+          "name": "User Login (Generates JWT Token)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.access_token) {",
+                  "    pm.collectionVariables.set('token', jsonData.access_token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"zain.ahmed@example.com\",\n  \"password\": \"SecurePass123!\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "login"]
+            }
+          }
+        },
+        {
+          "name": "Get Authenticated Profile (/auth/me)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/auth/me",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "me"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Wallet Management",
+      "item": [
+        {
+          "name": "List User Wallets (/wallets/me)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/wallets/me",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets", "me"]
+            }
+          }
+        },
+        {
+          "name": "Get Wallet Balance",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/wallets/{{my_wallet_id}}/balance",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets", "{{my_wallet_id}}", "balance"]
+            }
+          }
+        },
+        {
+          "name": "Create Additional Wallet (e.g. EUR Savings)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"currency\": \"EUR\",\n  \"wallet_type\": \"Savings\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/wallets",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Transactions & Money Movement",
+      "item": [
+        {
+          "name": "Deposit Funds into Wallet",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"amount\": 500.00,\n  \"idempotency_key\": \"c8b211d3-34e2-45e0-91a5-e0d49f6b92a1\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/wallets/{{my_wallet_id}}/deposit",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets", "{{my_wallet_id}}", "deposit"]
+            }
+          }
+        },
+        {
+          "name": "Withdraw Funds from Wallet",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"amount\": 100.00,\n  \"idempotency_key\": \"f4a9b231-11d2-43e5-82b1-d3a9f7e8b3c2\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/wallets/{{my_wallet_id}}/withdraw",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets", "{{my_wallet_id}}", "withdraw"]
+            }
+          }
+        },
+        {
+          "name": "Transfer Funds (Atomic & Idempotent)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"receiver_wallet_id\": 2,\n  \"amount\": 75.00,\n  \"idempotency_key\": \"e2a1b9c4-5d6e-4f7a-8b9c-0d1e2f3a4b5c\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/wallets/{{my_wallet_id}}/transfer",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets", "{{my_wallet_id}}", "transfer"]
+            }
+          }
+        },
+        {
+          "name": "Direct Transfer (Specifying Sender & Receiver)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"sender_wallet_id\": 1,\n  \"receiver_wallet_id\": 2,\n  \"amount\": 25.00,\n  \"idempotency_key\": \"d1a2b3c4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/wallets/transfer",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets", "transfer"]
+            }
+          }
+        },
+        {
+          "name": "Wallet Audit Trail & Transaction History",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/wallets/{{my_wallet_id}}/transactions?skip=0&limit=50",
+              "host": ["{{baseUrl}}"],
+              "path": ["wallets", "{{my_wallet_id}}", "transactions"],
+              "query": [
+                {
+                  "key": "skip",
+                  "value": "0"
+                },
+                {
+                  "key": "limit",
+                  "value": "50"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

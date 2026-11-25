@@ -1,0 +1,542 @@
+[
+  {
+    "product_name": "A Light in the Attic",
+    "price": 51.77,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.821912+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Tipping the Velvet",
+    "price": 53.74,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.823107+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Soumission",
+    "price": 50.1,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.824200+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Sharp Objects",
+    "price": 47.82,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.824931+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "Sapiens: A Brief History of Humankind",
+    "price": 54.23,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.825350+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "The Requiem Red",
+    "price": 22.65,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.825746+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "The Dirty Little Secrets of Getting Your Dream Job",
+    "price": 33.34,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.826153+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+    "price": 17.93,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.826552+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "price": 22.6,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.826956+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "The Black Maria",
+    "price": 52.15,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.827572+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+    "price": 13.99,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.828264+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "Shakespeare's Sonnets",
+    "price": 20.66,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.828906+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "Set Me Free",
+    "price": 17.46,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.829534+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    "price": 52.29,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.830174+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Rip it Up and Start Again",
+    "price": 35.02,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.830821+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+    "price": 57.25,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.831545+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Olio",
+    "price": 23.88,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/olio_984/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.833889+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+    "price": 37.59,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.835276+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Libertarianism for Beginners",
+    "price": 51.33,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.835937+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "It's Only the Himalayas",
+    "price": 45.17,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:24:59.836595+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "In Her Wake",
+    "price": 12.84,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.102368+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "How Music Works",
+    "price": 37.32,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/how-music-works_979/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.103498+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+    "price": 30.52,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.104286+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Chase Me (Paris Nights #2)",
+    "price": 25.27,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.105024+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Black Dust",
+    "price": 34.53,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/black-dust_976/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.105704+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Birdsong: A Story in Pictures",
+    "price": 54.64,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.106365+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+    "price": 22.5,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.107012+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Aladdin and His Wonderful Lamp",
+    "price": 53.13,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.107651+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+    "price": 40.3,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.108371+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Wall and Piece",
+    "price": 44.18,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.109314+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "The Four Agreements: A Practical Guide to Personal Freedom",
+    "price": 17.66,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.110203+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+    "price": 31.05,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.110776+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "The Elephant Tree",
+    "price": 23.82,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.111184+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "The Bear and the Piano",
+    "price": 36.89,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.111585+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Sophie's World",
+    "price": 15.94,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.111977+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Penny Maybe",
+    "price": 33.29,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.112364+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Maude (1883-1993):She Grew Up with the country",
+    "price": 18.02,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.113048+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "In a Dark, Dark Wood",
+    "price": 19.63,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.113708+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Behind Closed Doors",
+    "price": 52.22,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.114354+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "You can't bury them all: Poems",
+    "price": 33.63,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.115010+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "Slow States of Collapse: Poems",
+    "price": 57.31,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.398922+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Reasons to Stay Alive",
+    "price": 26.41,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.402509+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "Private Paris (Private #10)",
+    "price": 47.61,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.403563+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+    "price": 23.11,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.404959+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Without Borders (Wanderlove #1)",
+    "price": 45.07,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.406240+00:00",
+    "rating": "Two"
+  },
+  {
+    "product_name": "When We Collided",
+    "price": 31.77,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.407598+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "We Love You, Charlie Freeman",
+    "price": 50.27,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.408839+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "Untitled Collection: Sabbath Poems 2014",
+    "price": 14.27,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.409912+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+    "price": 44.18,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.410867+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "Unicorn Tracks",
+    "price": 18.78,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.411527+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+    "price": 25.52,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.411963+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+    "price": 16.28,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.412379+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+    "price": 31.12,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.412773+00:00",
+    "rating": "Three"
+  },
+  {
+    "product_name": "This One Summer",
+    "price": 19.49,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.413201+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "Thirst",
+    "price": 17.27,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.413841+00:00",
+    "rating": "Five"
+  },
+  {
+    "product_name": "The Torch Is Passed: A Harding Family Story",
+    "price": 19.09,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.414458+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "The Secret of Dreadwillow Carse",
+    "price": 56.13,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.415074+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+    "price": 56.41,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.417725+00:00",
+    "rating": "One"
+  },
+  {
+    "product_name": "The Past Never Ends",
+    "price": 56.5,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.419378+00:00",
+    "rating": "Four"
+  },
+  {
+    "product_name": "The Natural History of Us (The Fine Art of Pretending #2)",
+    "price": 45.22,
+    "currency": "GBP",
+    "url": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+    "availability": "In Stock",
+    "timestamp": "2026-11-22T20:25:00.420336+00:00",
+    "rating": "Three"
+  }
+]
